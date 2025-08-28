@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class OnlineShoppingCart {
-    public static void main(String[] args) {
+
+    public static void func(){
         Scanner sc = new Scanner(System.in);
         boolean moreCustomers = true;
         while (moreCustomers) {
@@ -45,7 +46,7 @@ public class OnlineShoppingCart {
                         System.out.println("Smart Watch added!");
                         break;
                     default:
-                        System.out.println("Invalid choice, skipping...");
+                        System.out.println("Invalid choice");
                 }
             }
 
@@ -68,6 +69,8 @@ public class OnlineShoppingCart {
         }
 
         System.out.println("\n--- Shopping System Closed ---");
-        sc.close();
+    }
+    public static void main(String[] args) {
+        func();
     }
 }
