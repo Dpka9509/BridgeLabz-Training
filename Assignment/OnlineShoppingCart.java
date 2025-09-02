@@ -53,7 +53,7 @@ public class OnlineShoppingCart {
             // Apply discount if amount > 5000
             if (totalAmount > 5000) {
                 System.out.println("\nTotal before discount: Rs." + totalAmount);
-                double discount = totalAmount * 0.10; // 10% discount
+                double discount = totalAmount * 0.10; 
                 totalAmount -= discount;
                 System.out.println("Discount applied: Rs." + discount);
             }
